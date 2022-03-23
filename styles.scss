@@ -1,7 +1,5 @@
 @import "variables";
-$fondo:#ff0000;
-$primer: #ce5555;
-$pcolor:#0000ff;
+
 body{
     // esto es anidamiento
     background-color: $fondo;
@@ -11,5 +9,12 @@ body{
     }
     p{
         color:$pcolor;
+    }
+    div{
+        border:1px solid $otra;
+        p{
+            color: wheat;
+        }
+
     }
 }
